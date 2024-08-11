@@ -32,7 +32,8 @@
 
 .bg-light{
 
-  background-color:black ;
+  background-color:rgba(17, 17, 17, 1) ;
+  margin-bottom: -20px;
 }
 
 .navbar{
@@ -108,7 +109,8 @@
 .banner-image{
 
   width: 349px;
-  height: 580px;
+  height:580px;
+  
   
 }
 
@@ -121,6 +123,16 @@
 
 
 }
+
+.banner-image, .banner-content{
+
+  gap: 87.95px;
+} 
+
+
+
+
+
 
 .banner-title{
 
@@ -146,6 +158,16 @@
   border: none;
 }
 
+.h1{
+
+  max-width: 1800px;
+  margin: 0 auto;
+  background-color: black;
+  gap: 0px;
+  margin-top: 0px;
+}
+
+ 
 .btn-secondary{
 
   background-color: black;
@@ -157,6 +179,67 @@
   border: #FFFFFF;
 
 
+}
+
+.change{
+
+  text-align: center;
+  
+  font-style:Bold ;
+  font-weight: 700;
+  color: #FFFFFF;
+
+
+}
+
+.h2{
+
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.exercise{
+
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  border-radius: 100;
+}
+
+.i1{
+
+  border-radius: 100px;
+}
+.i2{
+  border-radius: 100px;
+}
+.i3{
+  border-radius: 100px;
+}
+.i4{
+
+  border-radius: 100px;
+}
+
+.title{
+
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+  .navbar, .nav-links{
+
+    flex-direction: column;
+  }
+  
 }
 
 
