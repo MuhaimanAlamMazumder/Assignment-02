@@ -234,6 +234,7 @@
   background-color:black;
   gap: 0px;
   margin-top: 0px;
+  margin-bottom: -20px;
  
 
 }
@@ -299,6 +300,131 @@
   text-align: center;
 }
 
+.B1{
+
+  background-color: black;
+  margin-bottom: -20px;
+
+
+}
+
+.bmi{
+
+  text-align: center;
+  
+  font-style:Bold ;
+  font-weight: 700;
+  color: #FFFFFF;
+
+
+}
+
+.we{
+
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+
+
+
+.heading{
+
+  color: #FFFFFF;
+}
+
+.BMI{
+
+ background-color:rgba(34, 34, 34, 1);
+}
+
+.t1{
+
+  color: #FFFFFF;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(34, 34, 34, 1);
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(34, 34, 34, 1);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="number"], select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #E6533C;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="calculate"]:hover {
+  background-color: #E6533C;
+}
+
+.bform{
+
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.form{
+
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+
 
 
 
@@ -308,7 +434,7 @@
 
 @media screen and (max-width: 576px) {
 
-  .navbar, .nav-links, .h1, .Extra, .btn-run{
+  .navbar, .nav-links, .h1, .Extra{
 
     flex-direction: column;
   }
