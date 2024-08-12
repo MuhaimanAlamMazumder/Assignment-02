@@ -227,6 +227,79 @@
   text-align: center;
 }
 
+.Extra{
+
+  max-width: 1800px;
+  margin: 0 auto;
+  background-color:black;
+  gap: 0px;
+  margin-top: 0px;
+ 
+
+}
+
+.fitness{
+
+  text-align: center;
+
+  color:white;
+  justify-content: center;
+
+
+
+
+}
+
+.believe{
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.run{
+
+  width: 366px;
+  height: 312px;
+  padding: 0px 1000px 0px 1000px ;
+  border-radius: 100px;
+}
+
+.Run{
+
+  text-align: center;
+  
+  font-style:Bold ;
+  font-weight: 700;
+  color: #FFFFFF;
+  
+}
+
+.btn-run{
+
+  background-color: #E6533C;
+  color: #FFFFFF;
+  padding: 10px 25px ;
+  font-size: 1.25rem;
+  font-weight:600 ;
+  border-radius: 42px;
+  border: none;
+  width: 224px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 650px;
+
+
+}
+
+.fitness{
+
+  
+  display: flex;
+  text-align: center;
+}
+
+
 
 
 
@@ -235,7 +308,22 @@
 
 @media screen and (max-width: 576px) {
 
-  .navbar, .nav-links{
+  .navbar, .nav-links, .h1, .Extra, .btn-run{
+
+    flex-direction: column;
+  }
+
+  .exercise{
+
+    flex-direction: column;
+  }
+
+  .Extra{
+
+    flex-direction: column;
+  }
+
+  .believe{
 
     flex-direction: column;
   }
