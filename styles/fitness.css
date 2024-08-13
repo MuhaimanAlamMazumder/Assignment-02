@@ -611,7 +611,7 @@ input[type="calculate"]:hover {
 
 @media screen and (max-width: 576px) {
 
-  .navbar, .nav-links, .h1, .Extra, .teams, .BMI{
+  .navbar, .nav-links, .h1, .Extra, .teams, .BMI, .footer{
 
     flex-direction: column;
   }
@@ -627,6 +627,44 @@ input[type="calculate"]:hover {
   }
 
   .believe{
+
+    flex-direction: column;
+  }
+
+  .btn-run{
+
+    flex-direction: column;
+  }
+
+
+  
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+  .navbar, .nav-links, .h1, .Extra, .teams, .BMI, .footer{
+
+    flex-direction: column;
+  }
+
+  .exercise{
+
+    flex-direction: column;
+  }
+
+  .Extra{
+
+    flex-direction: column;
+  }
+
+  .believe{
+
+    flex-direction: column;
+  }
+
+  .btn-run{
 
     flex-direction: column;
   }
