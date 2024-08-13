@@ -420,6 +420,62 @@ input[type="calculate"]:hover {
   color: white;
 }
 
+.team{
+
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.team-description{
+
+  text-align: center;
+  color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.teams{
+
+  background-color: black;
+ 
+ 
+  text-align: center;
+  justify-content: center;
+
+  
+  
+}
+
+.team-img-container{
+
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color:rgba(34, 34, 34, 1) ;
+   
+    border: 2px rgba(34, 34, 34, 1);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+
+.team-img-container img{
+
+  width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 
 
 
@@ -434,7 +490,7 @@ input[type="calculate"]:hover {
 
 @media screen and (max-width: 576px) {
 
-  .navbar, .nav-links, .h1, .Extra{
+  .navbar, .nav-links, .h1, .Extra, .teams, .BMI{
 
     flex-direction: column;
   }
