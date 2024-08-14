@@ -219,7 +219,7 @@
 .h2{
 
   text-align: center;
-  color: #FFFFFF;
+  color:rgba(255, 255, 255, 0.5);
 }
 
 .exercise{
@@ -228,6 +228,12 @@
   justify-content: center;
   gap: 90px;
   border-radius: 100;
+}
+
+.title1{
+
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
 
 .i1{
@@ -267,7 +273,7 @@
 
   text-align: center;
 
-  color:white;
+  color: rgba(255, 255, 255, 0.5);
   justify-content: center;
 
 
@@ -375,6 +381,10 @@
 
 .t1{
 
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.t2{
   color: #FFFFFF;
 }
 
@@ -393,6 +403,11 @@ body {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.z{
+
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 h2 {
@@ -426,6 +441,12 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+}
+
+.c{
+
+  color: white;
+  text-align: center;
 }
 
 input[type="calculate"]:hover {
@@ -584,7 +605,7 @@ input[type="calculate"]:hover {
 
   text-align: center;
   justify-content: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   
 }
 
